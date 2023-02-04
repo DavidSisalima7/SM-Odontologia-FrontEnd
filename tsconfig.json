@@ -18,9 +18,14 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    //baseURL para ruta absoluta 
+    "baseUrl": "src"
   },
   "include": [
-    "src"
+    "src",
+    //Para que se lo aplique en todos los archivos con extension tsx
+    "**/*.ts",
+    "**/*.tsx"
   ]
 }
